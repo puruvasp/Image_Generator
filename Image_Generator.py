@@ -16,7 +16,7 @@ def generate_image(prompt):
     image.save(image_path)
     print(f"Image saved to {image_path}")
 
-
 if __name__ == "__main__":
     user_prompt = input("Enter your prompt for the image: ")
     generate_image(user_prompt)
+
