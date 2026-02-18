@@ -19,4 +19,3 @@ def generate_image(prompt):
 if __name__ == "__main__":
     user_prompt = input("Enter your prompt for the image: ")
     generate_image(user_prompt)
-
