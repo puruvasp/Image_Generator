@@ -1,7 +1,6 @@
 import torch
 from diffusers import StableDiffusionPipeline
 
-
 def generate_image(prompt):
     # Load the pre-trained Stable Diffusion model
     pipeline = StableDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5")
@@ -19,3 +18,4 @@ def generate_image(prompt):
 if __name__ == "__main__":
     user_prompt = input("Enter your prompt for the image: ")
     generate_image(user_prompt)
+
